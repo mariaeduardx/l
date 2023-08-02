@@ -1,0 +1,11 @@
+.cards {
+    display: flex;
+    gap: 36px;
+    margin-left: 96px;
+    margin-top: 150px;
+}
+.imagem__pizza {
+    width: 150px;
+    height: auto;
+
+}

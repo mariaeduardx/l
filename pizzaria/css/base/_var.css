@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Borel&family=Noto+Sans:wght@200&family=Patua+One&display=swap');
+:root{
+    --cor-de-fundo: #000000;
+    --t-12: 12px;
+    --t-16: 16px;
+    --t-18: 18px;
+    font-family: "Borel";
+}

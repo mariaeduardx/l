@@ -1,0 +1,31 @@
+header{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+nav {
+    grid-column: 1/13;
+    grid-row-start: 1;
+}
+
+.mensagem_principal {
+    grid-column: 2/8;
+    grid-row-start: 3;
+}
+
+.imagem_principal {
+    grid-column: 8/13;
+    grid-row-start: 4;
+    z-index: 1;
+}
+.div-arredondada {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 450px;
+    height: 450px;
+    background-color: #da582f;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
